@@ -1,0 +1,12 @@
+print('hello', '2 line', 3, sep='\n')
+n1 = input()
+n2 = input()
+n3 = input()
+print(n1, n2, n3, sep='\n')
+n3 = bool(input())
+print(n3)
+n3 = float(input())
+print(n3)
+name123='^'
+print('a', 'bc', 'd', end=', #комментарий \n')
+print('комментарий выше', end=name123)
