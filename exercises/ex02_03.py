@@ -23,3 +23,9 @@ num = int(input())
 a = num//10
 b = num%10
 print(b, a, sep='')
+
+price = int(input())
+dol = price//100
+cent1 = price%100//10
+cent2 = price%10
+print(dol, '.', cent1, cent2, sep='')
